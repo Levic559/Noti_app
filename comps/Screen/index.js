@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const ScrenCont = styled.div `
     width: 360px;
     height: 780px;
+    margin: 20px;
     background-image: url(${props=>props.imgUrl});
     background-repeat: no-repeat;
     background-position: center;

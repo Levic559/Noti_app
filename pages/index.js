@@ -10,6 +10,7 @@ export default function Home() {
       <h1>....Construction site!....</h1>
       <h3>Right now it is for components test</h3>
       <Logo />
+      <Video />
       <Button/>
       <Button bgcolor='#EB5DFF' btnText='Test'/>
       <Avatar src='head_icons_adrian.svg' name='Adrian'/>
@@ -18,6 +19,5 @@ export default function Home() {
       <Screen/>
       <Screen imgUrl='note.png'/>
       <Screen imgUrl='todo.png'/>
-      <Video />
     </div>
 }
