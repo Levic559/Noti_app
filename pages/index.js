@@ -3,14 +3,19 @@ import Button from '../comps/Button'
 import Avatar from '../comps/Avatar'
 import Screen from '../comps/Screen'
 import Video from '../comps/Video'
+import PageText from '../comps/PageText'
+import BigText from '../comps/BigText'
 
 export default function Home() {
   return <div>
       <h2>This is Noti Promot Web</h2>
       <h1>....Construction site!....</h1>
       <h3>Right now it is for components test</h3>
+      <br/>
       <Logo />
+      <BigText />
       <Video />
+      <PageText />
       <Button/>
       <Button bgcolor='#EB5DFF' btnText='Test'/>
       <Avatar src='head_icons_adrian.svg' name='Adrian'/>

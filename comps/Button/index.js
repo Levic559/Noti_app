@@ -6,7 +6,7 @@ import {useRouter} from 'next/router'
 const ButtonCont = styled.div `
     width: 210px;
     height: 40px;
-    margin: 10px;
+    margin: 20px;
     color: white;
     background: ${props=>props.bgcolor};
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
