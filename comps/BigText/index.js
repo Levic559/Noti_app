@@ -30,7 +30,7 @@ const BigText =({
 {
     return<BigCont>
         <BigTitle bigAlign={bigAlign}>{bigText}</BigTitle>
-        <BigText bigAlign={bigAlign}>{bigBody}</BigText>
+        <BigPara bigAlign={bigAlign}>{bigBody}</BigPara>
     </BigCont>
 }
 
