@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import {useRouter} from 'next/router'
 
 
-const ButtonCont = styled.div `
+const ButtonCont = styled.div`
     width: 210px;
     height: 40px;
     margin: 20px;
@@ -16,7 +16,7 @@ const ButtonCont = styled.div `
     align-items: center;
 `
 
-const ButtonText = styled.h3 `
+const ButtonText = styled.h3`
     font-family: sans-serif;
     text-align: center;
     align-items: center;

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const AvatarCont = styled.div `
+const AvatarCont = styled.div`
     width: 150px;
     height: 170px;
     margin: 10px;
@@ -10,12 +10,12 @@ const AvatarCont = styled.div `
     justify-content: center; 
     align-items: center;
 `
-const AvatarImg = styled.img `
+const AvatarImg = styled.img`
     width: 150px;
     heigh: 150px;
 `
 
-const AvatarName = styled.div `
+const AvatarName = styled.div`
     width: 100%;
     font-size: 1.5em;
     text-align: center;
