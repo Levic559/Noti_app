@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-// import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player/lazy'
 
 const VideoCont = styled.div `
     max-width: 1920px;
@@ -17,7 +17,7 @@ const VideoUI =({
 {
     return<VideoCont>
         <ReactPlayer 
-        url=''
+        url='promote.mp4'
         width='70%'
         height='70%' 
         controls 
@@ -25,4 +25,4 @@ const VideoUI =({
     </VideoCont>
 }
 
-// export default VideoUI
+export default VideoUI

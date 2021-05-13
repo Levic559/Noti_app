@@ -2,7 +2,7 @@ import Logo from '../comps/Logo'
 import Button from '../comps/Button'
 import Avatar from '../comps/Avatar'
 import Screen from '../comps/Screen'
-// import VideoUI from '../comps/VideoUI'
+import VideoUI from '../comps/VideoUI'
 import PageText from '../comps/PageText'
 import BigText from '../comps/BigText'
 
@@ -14,7 +14,7 @@ export default function Home() {
       <br/>
       <Logo />
       <BigText />
-      {/* <VideoUI /> */}
+      <VideoUI />
       <PageText />
       <Button/>
       <Button bgcolor='#EB5DFF' btnText='Test'/>

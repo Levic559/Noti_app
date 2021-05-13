@@ -2,7 +2,7 @@ import Logo from '../comps/Logo'
 import Button from '../comps/Button'
 import Avatar from '../comps/Avatar'
 import Screen from '../comps/Screen'
-import Video from '../comps/Video'
+import VideoUI from '../comps/VideoUI'
 
 export default function Test(){
   return <div>
