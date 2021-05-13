@@ -21,6 +21,8 @@ const VideoUI =({
         width='70%'
         height='70%' 
         controls 
+        // playing
+        loop
         muted/>
     </VideoCont>
 }
