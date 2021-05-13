@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ScrenCont = styled.div `
+const ScrenCont = styled.div`
     width: 360px;
     height: 780px;
     margin: 20px;

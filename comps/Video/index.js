@@ -2,12 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import ReactPlayer from 'react-player/lazy'
 
-const VideoCont = styled.div `
+const VideoCont = styled.div`
     max-width: 1920px;
     max-height: 1080px;
     margin: 30px;
-    // min-width: 960px;
-    // mix-height: 540px;
 `
 
 const Video =({
@@ -25,4 +23,4 @@ const Video =({
     </VideoCont>
 }
 
-export default Video
+// export default Video

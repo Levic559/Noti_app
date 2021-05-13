@@ -2,11 +2,11 @@ import Logo from '../comps/Logo'
 import Button from '../comps/Button'
 import Avatar from '../comps/Avatar'
 import Screen from '../comps/Screen'
-import Video from '../comps/Video'
+// import Video from '../comps/Video'
 import PageText from '../comps/PageText'
 import BigText from '../comps/BigText'
 
-export default function Home() {
+export default function Home(){
   return <div>
       <h2>This is Noti Promot Web</h2>
       <h1>....Construction site!....</h1>
@@ -14,7 +14,7 @@ export default function Home() {
       <br/>
       <Logo />
       <BigText />
-      <Video />
+      {/* <Video /> */}
       <PageText />
       <Button/>
       <Button bgcolor='#EB5DFF' btnText='Test'/>
