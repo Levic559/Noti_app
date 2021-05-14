@@ -5,19 +5,20 @@ import Screen from '../comps/Screen'
 import VideoUI from '../comps/VideoUI'
 import PageText from '../comps/PageText'
 import BigText from '../comps/BigText'
+import MenuLi from '../comps/MenuLi'
 
 export default function Home() {
   return <div>
-      <h2>This is Noti Promot Web</h2>
-      <h1>....Construction site!....</h1>
-      <h3>Right now it is for components test</h3>
+      <h3>This is Noti Promot Web</h3>
       <br/>
       <Logo />
-      <BigText />
+      <BigText bigText='Construction site!' bigBody='Right now it is for components test'/>
+      <br/>
+      <MenuLi /><MenuLi menuText='Test' menuPush='/test'/>
       <VideoUI />
       <PageText />
       <Button/>
-      <Button bgcolor='#EB5DFF' btnText='Test'/>
+      <Button bgcolor='#EB5DFF' btnText='Test' BtnPush='/test' />
       <Avatar src='head_icons_adrian.svg' name='Adrian'/>
       <Avatar src='head_icons_levi.svg' name='Levi'/>
       <Avatar src='head_icons_warren.svg' name='Warren'/>
