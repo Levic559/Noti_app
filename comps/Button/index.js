@@ -25,7 +25,7 @@ const ButtonText = styled.h3`
 
 const Button =({
     bgcolor = '#71E4B9',
-    btnText = 'Button',
+    btnText = 'Default Button',
     BtnPush = '/'
 })=>
 {

@@ -11,7 +11,7 @@ export default function Test(){
       <h3>Right now it is for components test</h3>
       <Logo />
       <Button/>
-      <Button bgcolor='#EB5DFF' btnText='Test'/>
+      <Button bgcolor='#EB5DFF' btnText='Home' BtnPush='/'/>
 
     </div>
 }
