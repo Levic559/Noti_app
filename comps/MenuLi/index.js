@@ -14,7 +14,7 @@ const MenuBtn = styled.button`
         font-size:20px;
     }
     @media (max-width: 780px) {
-        font-size:18px;
+        font-size:16px;
     }
 `
 

@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Logo from '../Logo'
 import MenuLi from '../MenuLi'
+import Hamburger from '../hamburger'
 
 const HeadCont = styled.div`
     width: 100%;
@@ -22,6 +23,19 @@ const HeadRight = styled.div`
     display: inline-flex;
     justify-content:flex-end;
     align-items: center;
+    @media (max-width: 780px) {
+       display:none
+    }
+
+`
+const HeadRight2 = styled.div`
+    width: 100%;
+    display: inline-flex;
+    justify-content:flex-end;
+    align-items: center;
+    @media (min-width: 780px) {
+       display:none
+    }
 
 `
 
@@ -35,7 +49,11 @@ const Header =()=>
             <MenuLi menuText='Home' menuPush='/home'/>
             <MenuLi menuText='Features' menuPush='/features'/>
             <MenuLi menuText='About Us' menuPush='/aboutUS'/>
+            
         </HeadRight>
+        <HeadRight2>
+        <Hamburger/>
+        </HeadRight2>
     </HeadCont>
 }
 
