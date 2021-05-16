@@ -3,29 +3,50 @@ import styled from 'styled-components'
 
 
 const BigCont = styled.div`
-    width: 70%;
-    height: 200px;
+    width: 100wv;
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 0;
+    padding:0;
+    align-items:center;
+    
 `
 const BigTitle = styled.div`
     font-size: 6em; 
     font-weight: bold;
-    line-height: 1.5em;
+    justify-content:center;
+    align-items:center;
     text-align: ${props=>props.bigAlign};
+    padding:0;
+    margin:0 ;
+    @media (max-width: 1220px) {
+        font-size: 5em; 
+    }
+    @media (max-width: 780px) {
+        font-size: 3em; 
+    }
 `
 
-const BigPara = styled.p`
+const BigPara = styled.div`
     font-size: 1.75em;
     text-align: ${props=>props.bigAlign};
+    width:525px;
+    @media (max-width: 1220px) {
+        font-size: 1.5em; 
+        width:500px;
+    }
+    @media (max-width: 780px) {
+        font-size: 1em;
+        width:325px;
+    }
+    
 `
 
 
 const BigText =({
     bigText = 'Big Title',
     bigBody = 'Big Body',
-    bigAlign = 'Center'
+    bigAlign = 'center'
 })=>
 {
     return<BigCont>

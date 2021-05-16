@@ -11,17 +11,22 @@ const HeadCont = styled.div`
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 `
 const HeadLeft = styled.div`
-    width: 50%;
+    width: 100%;
     display: inline-flex;
     justify-content: start;
     align-items: center;
 `
 
 const HeadRight = styled.div`
-    width: 50%;
+    width: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+   
+
+
+
+    
 `
 
 const Header =()=>

@@ -9,6 +9,13 @@ const MenuBtn = styled.button`
     border: none;
     font-size: 24px;
     background-color: white;
+    
+    @media (max-width: 1220px) {
+        font-size:20px;
+    }
+    @media (max-width: 780px) {
+        font-size:18px;
+    }
 `
 
 const MenuLi =({
