@@ -20,13 +20,9 @@ const HeadLeft = styled.div`
 const HeadRight = styled.div`
     width: 100%;
     display: inline-flex;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
-   
 
-
-
-    
 `
 
 const Header =()=>
@@ -36,8 +32,9 @@ const Header =()=>
             <Logo/>
         </HeadLeft>
         <HeadRight>
-            <MenuLi menuText='Home'/>
-            <MenuLi menuText='Test' menuPush='/test'/>
+            <MenuLi menuText='Home' menuPush='/home'/>
+            <MenuLi menuText='Features' menuPush='/features'/>
+            <MenuLi menuText='About Us' menuPush='/aboutUS'/>
         </HeadRight>
     </HeadCont>
 }

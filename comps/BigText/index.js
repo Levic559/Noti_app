@@ -23,7 +23,7 @@ const BigTitle = styled.div`
         font-size: 5em; 
     }
     @media (max-width: 780px) {
-        font-size: 3em; 
+        font-size: 3.5em; 
     }
 `
 
