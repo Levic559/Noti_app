@@ -7,25 +7,39 @@ import PageText from '../comps/PageText'
 import BigText from '../comps/BigText'
 import MenuLi from '../comps/MenuLi'
 import Header from '../comps/Header'
+import styled from 'styled-components'
 
-export default function Home() {
-  return <div>
-      <Header/>
-      <h3>This is Noti Promot Web</h3>
-      <br/>
-      <BigText bigText='Construction site!' bigBody='Right now it is for components test'/>
-      <br/>
-      <Logo />
-      <MenuLi /><MenuLi menuText='Test' menuPush='/test'/>
-      <VideoUI />
-      <PageText />
-      <Button/>
-      <Button bgcolor='#EB5DFF' btnText='Test' BtnPush='/test' />
-      <Avatar src='head_icons_adrian.svg' name='Adrian'/>
-      <Avatar src='head_icons_levi.svg' name='Levi'/>
-      <Avatar src='head_icons_warren.svg' name='Warren'/>
-      <Screen/>
-      <Screen imgUrl='note.png'/>
-      <Screen imgUrl='todo.png'/>
-    </div>
+
+const LandCont = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background: #efecef;
+`
+
+const LandTop = styled.div`
+  width: 100vw;
+`
+
+const LandMid = styled.div`
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
+
+export default function Landing() {
+  return <LandCont>
+      <LandTop>
+        <Logo />
+      </LandTop>
+      <LandMid>
+        <VideoUI />
+        <Button btnText='Start' BtnPush='/home' />
+      </LandMid>
+    </LandCont>
 }
