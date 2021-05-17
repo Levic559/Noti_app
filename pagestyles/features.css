@@ -1,0 +1,11 @@
+.main {
+    width: 100vw;
+    height: 3601px;
+    display: flex;
+    flex-direction: column;
+}
+
+.white-cont {
+    width: 100%;
+    flex-basis: 872px;
+}
