@@ -1,9 +1,5 @@
-import Logo from '../comps/Logo'
-import Button from '../comps/Button'
-import MenuLi from '../comps/MenuLi'
 import Header from '../comps/Header'
 import BigText from '../comps/BigText'
-import PageText from '../comps/PageText'
 import styled from 'styled-components'
 import Avatar from '../comps/Avatar'
 
