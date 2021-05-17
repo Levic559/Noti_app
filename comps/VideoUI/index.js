@@ -3,11 +3,8 @@ import styled from 'styled-components'
 import ReactPlayer from 'react-player/lazy'
 
 const VideoCont = styled.div `
-    max-width: 1920px;
-    max-height: 1080px;
-    margin: 30px;
-    // min-width: 960px;
-    // mix-height: 540px;
+    max-width: 1080px;
+    margin: 50px;
 `
 
 const VideoUI =({
@@ -18,11 +15,11 @@ const VideoUI =({
     return<VideoCont>
         <ReactPlayer 
         url='promote.mp4'
-        width='70%'
-        height='70%' 
+        width='100%'
+        height='100%' 
         controls 
-        // playing
-        loop
+        playing
+        // loop
         muted/>
     </VideoCont>
 }

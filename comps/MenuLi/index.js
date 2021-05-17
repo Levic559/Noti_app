@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {useRouter} from 'next/router'
+import { Menu } from '@material-ui/core'
 
 
 const MenuBtn = styled.button`
@@ -24,8 +25,13 @@ const MenuLi =({
 })=>
 {
     const MenuRouter = useRouter()
+ 
+    const MenuClick =()=>
+    {
+        MenuRouter.push(menuPush)
+    }
 
-    return<MenuBtn onClick={()=>MenuRouter.push(menuPush)}>{menuText}</MenuBtn>
+    return<MenuBtn onClick={MenuClick}>{menuText}</MenuBtn>
 
 }
 
