@@ -14,7 +14,7 @@ const VideoUI =({
 {
     return<VideoCont>
         <ReactPlayer 
-        url='promote.mp4'
+        url='promotional_video.mp4'
         width='100%'
         height='100%' 
         controls 
