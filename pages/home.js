@@ -67,7 +67,7 @@ export default function Home() {
             bigText=""
             bigBody= "Noti helps you group, navigate, and arrange your entries thanks to it’s innovative modular design."
           />
-            <Button btnText="Featues" bgcolor="#EB5DFF"/>
+            <Button btnText="Featues" bgcolor="#EB5DFF" BtnPush='/features'/>
         </BottomCont>
       
       </PageCont>
