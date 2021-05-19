@@ -11,6 +11,11 @@ const AboutCont = styled.div`
     flex-direction: column;
     align-items: center;
     background: #efecef;
+
+    @media (max-width: 780px)
+    {
+      height: 100%;
+    };
 `
 
 const AboutTop = styled.div`
@@ -33,17 +38,27 @@ const MidTop = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 780px)
+    {
+      height: 150px;
+    };
 `
 
 const MidBottom = styled.div`
-    width: 80%;
+    width: 100%;
     height: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #FFF;
-    border-radius: 10px;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+
+    @media (max-width: 780px)
+    {
+      flex-direction: column;
+      height: ;
+    };
 `
 
 const BottomUnit = styled.div`
@@ -53,14 +68,33 @@ const BottomUnit = styled.div`
     align-items: center;
     justify-content: center;
 
+    h2{
+      margin-top: 80px;
+    }
+
+    @media (max-width: 780px)
+    {
+      width: 100%;
+      
+      h2{
+        margin-top: 50px;
+        border-bottom: solid 1px;
+      }
+    };
 `
 
 const HeadCont = styled.div`
     width: 100%;
     display: flex;
-    margin: 10%;
+    margin: 50px;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 780px)
+    {
+      flex-direction: column;
+      margin: 20px;
+    };
 `
 
 

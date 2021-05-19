@@ -8,8 +8,7 @@ const VideoCont = styled.div `
 `
 
 const VideoUI =({
-    // VideoSrc={video},
-    autoPlay='autoplay'
+    playing=true
 })=>
 {
     return<VideoCont>
@@ -17,10 +16,9 @@ const VideoUI =({
         url='promotional_video.mp4'
         width='100%'
         height='100%' 
-        controls 
+        controls
         playing
-        // loop
-        muted/>
+        />
     </VideoCont>
 }
 
