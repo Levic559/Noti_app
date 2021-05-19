@@ -3,22 +3,31 @@ import styled from 'styled-components'
 
 
 const TextCont = styled.div`
-    width: 400px;
-    height: 200px;
+    max-width: 500px;
+    // height: 200px;
     display: flex;
     flex-direction: column;
     margin: 20px;
 `
 const TextTitle = styled.div`
-    font-size: 4.5em; 
+    font-size: 4em; 
     font-weight: bold;
     line-height: 1.5em;
     text-align: ${props=>props.textAlign};
+    @media (max-width: 780px)
+    {
+      text-align: center;
+    };
+
 `
 
 const TextPara = styled.p`
     font-size: 1.5em;
     text-align: ${props=>props.textAlign};
+    @media (max-width: 780px)
+    {
+      text-align: center;
+    };
 `
 
 

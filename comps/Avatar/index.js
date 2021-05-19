@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const AvatarCont = styled.div`
     width: 150px;
     height: 170px;
-    margin: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center; 

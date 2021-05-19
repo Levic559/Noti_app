@@ -2,40 +2,63 @@ import Feature from '../comps/Feature'
 import PageText from '../comps/PageText'
 import Header from '../comps/Header'
 import styled from 'styled-components';
+import screen from '../comps/Screen'
 
 const Cont = styled.div `
   width: 100vw;
-  height: 3601px;
   display: flex;
   flex-direction: column;
 `
 
 const WhiteCont = styled.div`
 display:flex;
-justify-content:space-between;
-align-items:center;
-width: 100vw;
-height: 878px;
+justify-content: center;
+align-items: center;
+width: 100%;
+// height: 878px;
+
+@media (max-width: 780px)
+{
+  flex-direction: column;
+}
 `
 const BlackCont = styled.div`
 display:flex;
-justify-content:space-between;
-align-items:center;
+justify-content: center;
+align-items: center;
 background-color: rgb(174, 159, 175, 0.2);
 border-top: 2px solid #AE9FAF;
 border-bottom: 2px solid #AE9FAF;
-width: 100vw;
-height: 878px;
+width: 100%;
+// height: 878px;
+
+@media (max-width: 780px)
+{
+  flex-direction: column;
+};
+
 `
 
 const Left = styled.div`
-  position:relative;
-  left:148px;
+  width: 40%;
+  display:flex;
+  justify-content: center;
+
+  @media (max-width: 780px)
+{
+  width: 80%;
+};
 `
 
 const Right = styled.div`
-position:relative;
-right:148px;
+  width: 40%;
+  display:flex;
+  justify-content: center;
+
+  @media (max-width: 780px)
+{
+  width: 80%;
+};
 `
 
 export default function Features() {
@@ -48,6 +71,7 @@ export default function Features() {
           <PageText 
             titleText="Dashboard"
             bodyText="Make your choice of essential events or to-do lists for you to pin to the dashboard."
+            textAlign = 'right'
           />
         </Left>
 
@@ -74,6 +98,7 @@ export default function Features() {
           <PageText 
             titleText="Notes"
             bodyText="Jot down on-the-go thoughts or take time for more detailed entries."
+            textAlign = 'right'
           />
         </Left>
 
