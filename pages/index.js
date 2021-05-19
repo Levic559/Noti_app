@@ -33,7 +33,7 @@ export default function Landing() {
       </LandTop>
       <LandMid>
         <VideoUI />
-        <Button btnText='Start' BtnPush='/home' />
+        <Button btnText='Learn More' BtnPush='/home' />
       </LandMid>
     </LandCont>
 }

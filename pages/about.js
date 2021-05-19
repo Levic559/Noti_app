@@ -52,7 +52,6 @@ const MidBottom = styled.div`
     align-items: center;
     justify-content: center;
     background: #FFF;
-    border-radius: 10px;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
 
     @media (max-width: 780px)
@@ -72,13 +71,15 @@ const BottomUnit = styled.div`
     h2{
       margin-top: 80px;
     }
+
     @media (max-width: 780px)
     {
+      width: 100%;
+      
       h2{
         margin-top: 50px;
         border-bottom: solid 1px;
       }
-      width: 100%;
     };
 `
 
