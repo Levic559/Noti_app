@@ -43,10 +43,11 @@ const Left = styled.div`
   width: 40%;
   display:flex;
   justify-content: center;
-
+  order: 2;
   @media (max-width: 780px)
 {
   width: 80%;
+  order: 2;
 };
 `
 
@@ -54,10 +55,11 @@ const Right = styled.div`
   width: 40%;
   display:flex;
   justify-content: center;
-
+  order: 2;
   @media (max-width: 780px)
 {
   width: 80%;
+  order: 1;
 };
 `
 
@@ -75,9 +77,9 @@ export default function Features() {
           />
         </Left>
 
-        <Right>
+        <Left>
           <Feature imgUrl='dashboard.png'/>
-        </Right>
+        </Left>
       </WhiteCont>
 
       <BlackCont>
@@ -102,9 +104,9 @@ export default function Features() {
           />
         </Left>
 
-        <Right>
+        <Left>
           <Feature imgUrl='note.png'/>
-        </Right>
+        </Left>
       </WhiteCont>
 
       <BlackCont>
