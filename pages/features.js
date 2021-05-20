@@ -1,8 +1,9 @@
 import Feature from '../comps/Feature'
 import PageText from '../comps/PageText'
+import Button from "../comps/Button";
 import Header from '../comps/Header'
+import Footer from '../comps/Footer'
 import styled from 'styled-components';
-import screen from '../comps/Screen'
 
 const Cont = styled.div `
   width: 100vw;
@@ -15,7 +16,6 @@ display:flex;
 justify-content: center;
 align-items: center;
 width: 100%;
-// height: 878px;
 
 @media (max-width: 780px)
 {
@@ -30,7 +30,6 @@ background-color: rgb(174, 159, 175, 0.2);
 border-top: 2px solid #AE9FAF;
 border-bottom: 2px solid #AE9FAF;
 width: 100%;
-// height: 878px;
 
 @media (max-width: 780px)
 {
@@ -62,17 +61,7 @@ const Right = styled.div`
   order: 1;
 };
 `
-const FooterCont = styled.div`
-  background-color: #efecef;
-  justify-content:center;
-  display:flex;
-  align-items:center;
-  text-align:center
-  width: 100wv;
-  height: 30px;
-  @media (max-width: 450px) {
-    fontSize:14px;
- }
+
 `
 
 export default function Features() {
@@ -133,8 +122,11 @@ export default function Features() {
           />
         </Right>
       </BlackCont>
-      <FooterCont>
-        Marketing Website Demo/IDSP-2380-0-Web Projects 1/ BCIT 2021
-        </FooterCont>
+
+      <WhiteCont>
+          <Button btnText='Download' bgcolor="#EB5DFF" BtnPush='/'/>
+      </WhiteCont>
+      <Footer/>
+
   </Cont>
 }

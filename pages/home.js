@@ -1,12 +1,8 @@
-import Logo from "../comps/Logo";
 import Button from "../comps/Button";
-import Avatar from "../comps/Avatar";
 import Screen from "../comps/Screen";
-import VideoUI from "../comps/VideoUI";
-import PageText from "../comps/PageText";
 import BigText from "../comps/BigText";
-import MenuLi from "../comps/MenuLi";
 import Header from "../comps/Header";
+import Footer from '../comps/Footer'
 import styled from "styled-components";
 
 const PageCont = styled.div`
@@ -41,17 +37,7 @@ const BottomCont = styled.div`
   width: 100wv;
   height: 240px;
 `
-const FooterCont = styled.div`
-  background-color: #efecef;
-  justify-content:center;
-  display:flex;
-  align-items:center;
-  text-align:center
-  width: 100wv;
-  height: 30px;
-  @media (max-width: 780px) {
-    fontSize:14px;
- }
+
 `
 export default function Home() {
   return (
@@ -65,6 +51,7 @@ export default function Home() {
       and calendar for easy organization.
 "
           />
+          <Button btnText='Download' bgcolor="#EB5DFF" BtnPush='/'/>
         </Statement>
 
         <ScreenCont>
@@ -79,11 +66,11 @@ export default function Home() {
             bigText=""
             bigBody= "Noti helps you group, navigate, and arrange your entries thanks to it’s innovative modular design."
           />
-            <Button btnText="Featues" bgcolor="#EB5DFF" BtnPush='/features'/>
+            <Button btnText="Featues" BtnPush='/features'/>
         </BottomCont>
-        <FooterCont>
-        Marketing Website Demo/IDSP-2380-0-Web Projects 1/ BCIT 2021
-        </FooterCont>
+
+        <Footer/>
+
       </PageCont>
     </div>
   );

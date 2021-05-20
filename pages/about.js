@@ -1,4 +1,5 @@
 import Header from '../comps/Header'
+import Footer from '../comps/Footer'
 import BigText from '../comps/BigText'
 import styled from 'styled-components'
 import Avatar from '../comps/Avatar'
@@ -20,6 +21,7 @@ const AboutCont = styled.div`
 
 const AboutTop = styled.div`
     width: 100%;
+    height: 20%;
 
 `
 
@@ -96,26 +98,12 @@ const HeadCont = styled.div`
       margin: 20px;
     };
 `
-const FooterCont = styled.div`
-  background-color: #efecef;
-  justify-content:center;
-  display:flex;
-  align-items:center;
-  text-align:center
-  width: 100wv;
-  height: 30px;
-  margin-top:100px;
-  @media (max-width: 450px) {
-    fontSize:14px;
- }
-`
+
 
 
 export default function about(){
   return <AboutCont>
-      <AboutTop>
         <Header/>
-      </AboutTop>
       <AboutMid>
         <MidTop>
           <BigText bigText='Meet the team' bigBody=''/>
@@ -138,8 +126,7 @@ export default function about(){
           </BottomUnit>
         </MidBottom>
       </AboutMid>
-      <FooterCont>
-        Marketing Website Demo/IDSP-2380-0-Web Projects 1/ BCIT 2021
-        </FooterCont>
+      <AboutTop/>
+      <Footer/>
     </AboutCont>
 }
