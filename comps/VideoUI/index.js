@@ -8,7 +8,7 @@ const VideoCont = styled.div `
 `
 
 const VideoUI =({
-    playing=true
+    
 })=>
 {
     return<VideoCont>
@@ -18,6 +18,8 @@ const VideoUI =({
         height='100%' 
         controls
         playing={true} 
+        loop={true} 
+        muted={true}
         />
     </VideoCont>
 }
