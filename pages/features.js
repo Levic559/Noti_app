@@ -62,8 +62,6 @@ const Right = styled.div`
 };
 `
 
-`
-
 export default function Features() {
   return <Cont>
 

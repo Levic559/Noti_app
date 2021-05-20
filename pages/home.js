@@ -38,7 +38,7 @@ const BottomCont = styled.div`
   height: 240px;
 `
 
-`
+
 export default function Home() {
   return (
     <div>
