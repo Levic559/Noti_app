@@ -17,7 +17,7 @@ const VideoUI =({
         width='100%'
         height='100%' 
         controls
-        playing
+        playing='true'
         />
     </VideoCont>
 }
