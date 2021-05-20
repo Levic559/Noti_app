@@ -34,6 +34,7 @@ export default function Landing() {
       <LandMid>
         <VideoUI />
         <Button btnText='Learn More' BtnPush='/home' />
+        <Button btnText='Download' bgcolor="#EB5DFF" BtnPush='/'/>
       </LandMid>
     </LandCont>
 }

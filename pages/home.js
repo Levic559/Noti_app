@@ -1,12 +1,8 @@
-import Logo from "../comps/Logo";
 import Button from "../comps/Button";
-import Avatar from "../comps/Avatar";
 import Screen from "../comps/Screen";
-import VideoUI from "../comps/VideoUI";
-import PageText from "../comps/PageText";
 import BigText from "../comps/BigText";
-import MenuLi from "../comps/MenuLi";
 import Header from "../comps/Header";
+import Footer from '../comps/Footer'
 import styled from "styled-components";
 
 const PageCont = styled.div`
@@ -53,6 +49,7 @@ export default function Home() {
       and calendar for easy organization.
 "
           />
+          <Button btnText='Download' bgcolor="#EB5DFF" BtnPush='/'/>
         </Statement>
 
         <ScreenCont>
@@ -67,9 +64,9 @@ export default function Home() {
             bigText=""
             bigBody= "Noti helps you group, navigate, and arrange your entries thanks to it’s innovative modular design."
           />
-            <Button btnText="Featues" bgcolor="#EB5DFF" BtnPush='/features'/>
+            <Button btnText="Featues" BtnPush='/features'/>
         </BottomCont>
-      
+        <Footer/>
       </PageCont>
     </div>
   );

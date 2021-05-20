@@ -1,4 +1,5 @@
 import Header from '../comps/Header'
+import Footer from '../comps/Footer'
 import BigText from '../comps/BigText'
 import styled from 'styled-components'
 import Avatar from '../comps/Avatar'
@@ -20,6 +21,7 @@ const AboutCont = styled.div`
 
 const AboutTop = styled.div`
     width: 100%;
+    height: 20%;
 
 `
 
@@ -101,9 +103,7 @@ const HeadCont = styled.div`
 
 export default function about(){
   return <AboutCont>
-      <AboutTop>
         <Header/>
-      </AboutTop>
       <AboutMid>
         <MidTop>
           <BigText bigText='Meet the team' bigBody=''/>
@@ -126,6 +126,7 @@ export default function about(){
           </BottomUnit>
         </MidBottom>
       </AboutMid>
-
+      <AboutTop/>
+      <Footer/>
     </AboutCont>
 }
