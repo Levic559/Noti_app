@@ -62,6 +62,8 @@ const Right = styled.div`
 };
 `
 
+`
+
 export default function Features() {
   return <Cont>
 
@@ -120,9 +122,11 @@ export default function Features() {
           />
         </Right>
       </BlackCont>
+
       <WhiteCont>
           <Button btnText='Download' bgcolor="#EB5DFF" BtnPush='/'/>
       </WhiteCont>
       <Footer/>
+
   </Cont>
 }
