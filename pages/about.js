@@ -1,5 +1,6 @@
 import Header from '../comps/Header'
 import Footer from '../comps/Footer'
+import Contact from '../comps/Contact'
 import BigText from '../comps/BigText'
 import styled from 'styled-components'
 import Avatar from '../comps/Avatar'
@@ -7,7 +8,7 @@ import Avatar from '../comps/Avatar'
 
 const AboutCont = styled.div`
     width: 100vw;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +16,7 @@ const AboutCont = styled.div`
 
     @media (max-width: 780px)
     {
-      height: 100%;
+      height: ;
     };
 `
 
@@ -36,20 +37,20 @@ const AboutMid = styled.div`
 
 const MidTop = styled.div`
     width: 100%;
-    height: 40%;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
 
     @media (max-width: 780px)
     {
-      height: 150px;
+      height: ;
     };
 `
 
 const MidBottom = styled.div`
     width: 100%;
-    height: 60%;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +60,7 @@ const MidBottom = styled.div`
     @media (max-width: 780px)
     {
       flex-direction: column;
-      height: ;
+      height: 100%;
     };
 `
 
@@ -126,7 +127,7 @@ export default function about(){
           </BottomUnit>
         </MidBottom>
       </AboutMid>
-      <AboutTop/>
+      <Contact/>
       <Footer/>
     </AboutCont>
 }
