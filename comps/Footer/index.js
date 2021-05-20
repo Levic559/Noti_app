@@ -17,28 +17,12 @@ const FootCont = styled.div`
     };
 `
 const FootLeft = styled.div`
-  width: 40%;
+  width: 30%;
   display:flex;
   justify-content: center;
   p{
-      margin: 40px 5px;
+      margin: 40px 10px;
   }
-  @media (max-width: 780px)
-    {
-        width: 80%;
-        p{
-            margin: 10px;
-        }
-    };
-`
-
-const FootRight = styled.div`
-  width: 40%;
-  display:flex;
-  justify-content: center;
-  p{
-    margin: 40px 10px;
-    }
   @media (max-width: 780px)
     {
         width: 80%;
@@ -52,14 +36,15 @@ const Footer =()=>
 {
     return<FootCont>
         <FootLeft>
-            <p>Project: IDSP-2380-0-Web Projects-1 / </p>
-           
+            <p>Project: IDSP-2380-0-Web Projects-1 </p>
+        </FootLeft>
+        <FootLeft>
             <p> DEVELOPER:  BCIT D3  Group 8</p>
         </FootLeft>
-        <FootRight>
+        <FootLeft>
             <p>CONTACT:</p>
             <p>Telephone:  604-434-5734<br/>Email:  group8@bcit.ca</p>
-        </FootRight>
+        </FootLeft>
     </FootCont>
 }
 

@@ -120,8 +120,8 @@ export default function about(){
           <BottomUnit>
             <h2>Developers</h2>
             <HeadCont>
-              <Avatar src='head_icons_levi.svg' name='Levi C.'/>
-              <Avatar src='head_icons_levi.svg' name='Levi C.'/>
+              <Avatar src='head_icons_kya.svg' name='Kya B.'/>
+              <Avatar src='head_icons_adam.svg' name='Adam S.'/>
             </HeadCont>
           </BottomUnit>
         </MidBottom>
