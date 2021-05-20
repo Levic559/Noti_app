@@ -35,6 +35,7 @@ export default function Hamburger() {
       >
         <MenuItem style={{ fontSize: '20px'}} onClick={()=>router.push('/home')}>Home</MenuItem>
         <MenuItem style={{ fontSize: '20px'}} onClick={()=>router.push('/features')}>Features</MenuItem>
+        <MenuItem style={{ fontSize: '20px'}} onClick={()=>window.open('https://noti-app.vercel.app/')}>Download</MenuItem>
         <MenuItem style={{ fontSize: '20px'}} onClick={()=>router.push('/about')}>AboutUs</MenuItem>
       </Menu>
     </div>

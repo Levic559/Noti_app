@@ -96,7 +96,19 @@ const HeadCont = styled.div`
       margin: 20px;
     };
 `
-
+const FooterCont = styled.div`
+  background-color: #efecef;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  text-align:center
+  width: 100wv;
+  height: 30px;
+  margin-top:100px;
+  @media (max-width: 450px) {
+    fontSize:14px;
+ }
+`
 
 
 export default function about(){
@@ -126,6 +138,8 @@ export default function about(){
           </BottomUnit>
         </MidBottom>
       </AboutMid>
-
+      <FooterCont>
+        Marketing Website Demo/IDSP-2380-0-Web Projects 1/ BCIT 2021
+        </FooterCont>
     </AboutCont>
 }

@@ -62,6 +62,18 @@ const Right = styled.div`
   order: 1;
 };
 `
+const FooterCont = styled.div`
+  background-color: #efecef;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  text-align:center
+  width: 100wv;
+  height: 30px;
+  @media (max-width: 450px) {
+    fontSize:14px;
+ }
+`
 
 export default function Features() {
   return <Cont>
@@ -121,5 +133,8 @@ export default function Features() {
           />
         </Right>
       </BlackCont>
+      <FooterCont>
+        Marketing Website Demo/IDSP-2380-0-Web Projects 1/ BCIT 2021
+        </FooterCont>
   </Cont>
 }

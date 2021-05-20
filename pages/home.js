@@ -41,6 +41,18 @@ const BottomCont = styled.div`
   width: 100wv;
   height: 240px;
 `
+const FooterCont = styled.div`
+  background-color: #efecef;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  text-align:center
+  width: 100wv;
+  height: 30px;
+  @media (max-width: 780px) {
+    fontSize:14px;
+ }
+`
 export default function Home() {
   return (
     <div>
@@ -69,7 +81,9 @@ export default function Home() {
           />
             <Button btnText="Featues" bgcolor="#EB5DFF" BtnPush='/features'/>
         </BottomCont>
-      
+        <FooterCont>
+        Marketing Website Demo/IDSP-2380-0-Web Projects 1/ BCIT 2021
+        </FooterCont>
       </PageCont>
     </div>
   );
