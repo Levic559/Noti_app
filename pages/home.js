@@ -37,6 +37,8 @@ const BottomCont = styled.div`
   width: 100wv;
   height: 240px;
 `
+
+
 export default function Home() {
   return (
     <div>
@@ -66,7 +68,9 @@ export default function Home() {
           />
             <Button btnText="Featues" BtnPush='/features'/>
         </BottomCont>
+
         <Footer/>
+
       </PageCont>
     </div>
   );

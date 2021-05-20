@@ -21,7 +21,7 @@ const FootLeft = styled.div`
   display:flex;
   justify-content: center;
   p{
-      margin: 40px 10px;
+      margin: 40px 5px;
   }
   @media (max-width: 780px)
     {
@@ -52,8 +52,9 @@ const Footer =()=>
 {
     return<FootCont>
         <FootLeft>
-            <p>DEVELOPER:</p>
-            <p>BCIT D3  Group 8</p>
+            <p>Project: IDSP-2380-0-Web Projects-1 / </p>
+           
+            <p> DEVELOPER:  BCIT D3  Group 8</p>
         </FootLeft>
         <FootRight>
             <p>CONTACT:</p>

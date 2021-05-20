@@ -28,7 +28,7 @@ const BigTitle = styled.div`
 `
 
 const BigPara = styled.div`
-    font-size: 1.75em;
+    font-size:  ${props=>props.fontSize};
     text-align: ${props=>props.bigAlign};
     width:525px;
     @media (max-width: 1220px) {
@@ -46,12 +46,13 @@ const BigPara = styled.div`
 const BigText =({
     bigText = 'Big Title',
     bigBody = 'Big Body',
-    bigAlign = 'center'
+    bigAlign = 'center',
+    fontSize='1.5em',
 })=>
 {
     return<BigCont>
-        <BigTitle bigAlign={bigAlign}>{bigText}</BigTitle>
-        <BigPara bigAlign={bigAlign}>{bigBody}</BigPara>
+        <BigTitle bigAlign={bigAlign}>{bigText} </BigTitle>
+        <BigPara bigAlign={bigAlign}  fontSize={fontSize}>{bigBody}</BigPara>
     </BigCont>
 }
 

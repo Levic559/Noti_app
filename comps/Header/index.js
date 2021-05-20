@@ -7,6 +7,7 @@ import Hamburger from '../hamburger'
 const MenuData = [
     { text: 'Home', router: '/' },
     { text: 'Features', router: '/features' },
+    { text: 'Download', router: 'https://noti-app.vercel.app/' },
     { text: 'About', router: '/about' },
 ]
 
